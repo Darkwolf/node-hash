@@ -1,0 +1,40 @@
+{
+  "name": "@darkwolf/hash.mjs",
+  "version": "1.0.0",
+  "description": "Hash",
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.mjs",
+    "./": "./lib/",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkwolf/node-hash.git"
+  },
+  "keywords": [
+    "darkwolf",
+    "dw",
+    "hash",
+    "mjs",
+    "crypto",
+    "base58",
+    "uid",
+    "random"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darkwolf/node-hash/issues"
+  },
+  "homepage": "https://github.com/Darkwolf/node-hash#readme",
+  "dependencies": {
+    "@darkwolf/base58.mjs": "^1.0.1"
+  }
+}
