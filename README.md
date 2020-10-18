@@ -1,0 +1,2 @@
+# node-hash
+ Hash
